@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+encoding//WebContent/admin/users/users.jsp=UTF-8
+encoding//WebContent/auth/login.jsp=UTF-8
+encoding//WebContent/auth/register.jsp=UTF-8
+encoding//src/controller/AdminAddCatController.java=UTF-8
+encoding//src/controller/AdminAddNewController.java=UTF-8
+encoding//src/controller/AdminAddUserController.java=UTF-8
+encoding//src/controller/AdminDelCatController.java=UTF-8
+encoding//src/controller/AdminDelNewController.java=UTF-8
+encoding//src/controller/AdminDelUserController.java=UTF-8
+encoding//src/controller/AdminEditCatController.java=UTF-8
+encoding//src/controller/AdminEditNewController.java=UTF-8
+encoding//src/controller/AdminEditUserController.java=UTF-8
+encoding//src/controller/AuthRegisterController.java=UTF-8
+encoding//src/util/DBConnectionUtil.java=UTF-8
+encoding//src/util/StringUtil.java=UTF-8

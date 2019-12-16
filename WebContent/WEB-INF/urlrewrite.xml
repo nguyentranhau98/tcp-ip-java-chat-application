@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN" "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+
+<urlrewrite>
+	
+	<rule>
+		<from>/main-page/([0-9]+)/page/([0-9]+)$</from>
+		<to>/main-page?cid=$1&amp;page=$2</to>
+	</rule>
+	<rule>
+		<from>/category/([0-9]+)/page/([0-9]+)$</from>
+		<to>/category?cid=$1&amp;page=$2</to>
+	</rule>
+	<rule>
+		<from>/search/(.+)/page/([0-9]+)$</from>
+		<to>/search?name=$1&amp;page=$2</to>
+	</rule>
+	<rule>
+		<from>/category/([0-9]+)$</from>
+		<to>/category?cid=$1</to>
+	</rule>
+	<rule>
+		<from>/main-page/([0-9]+)$</from>
+		<to>/main-page?cid=$1</to>
+	</rule>
+	<rule>
+		<from>/detail/([0-9]+)$</from>
+		<to>/detail?nid=$1</to>
+	</rule>
+	<rule>
+		<from>/admin/new/index/([0-9]+)$</from>
+		<to>/admin/new/index?page=$1</to>
+	</rule>
+	<rule>
+		<from>/admin/comment/index/([0-9]+)$</from>
+		<to>/admin/comment/index?page=$1</to>
+	</rule>
+	<rule>
+		<from>/admin/contact/index/([0-9]+)$</from>
+		<to>/admin/contact/index?page=$1</to>
+	</rule>
+	<rule>
+		<from>/admin/user/index/([0-9]+)$</from>
+		<to>/admin/user/index?page=$1</to>
+	</rule>
+	<rule>
+		<from>/admin/new/search/([0-9]+)$</from>
+		<to>/admin/new/search?page=$1</to>
+	</rule>
+	
+</urlrewrite>
